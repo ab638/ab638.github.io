@@ -13,7 +13,7 @@
      <!-- Slide Show -->
     <section>
       <img class="mySlides" src="t1.jpg" style="width:100%">
-      <img class="mySlides" src="t2.jpg" style="height:30%">
+      <img class="mySlides" src="t2.jpg" style="height:60%">
       <img class="mySlides" src="t3.jpg" style="height:20%">
     </section>
     <script>
