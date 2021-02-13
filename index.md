@@ -13,8 +13,8 @@
      <!-- Slide Show -->
     <section>
       <img class="mySlides" src="t1.jpg" style="width:100%">
-      <img class="mySlides" src="t2.jpg" style="height:100%">
-      <img class="mySlides" src="t3.jpg" style="width:100%">
+      <img class="mySlides" src="t2.jpg" style="width:20% height:10%">
+      <img class="mySlides" src="t3.jpg" style="height:20%">
     </section>
     <script>
       // Automatic Slideshow - change image every 3 seconds
