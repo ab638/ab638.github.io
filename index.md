@@ -10,6 +10,12 @@
       <a href="#about" class="w3-button w3-bar-item">About</a>
       <a href="#contact" class="w3-button w3-bar-item">Contact</a>
     </nav>
+     <!-- Slide Show -->
+    <section>
+      <img class="mySlides" src="t1.jpg" style="width:100%">
+      <img class="mySlides" src="t2.jpg" style="width:100%">
+      <img class="mySlides" src="t3.jpg" style="width:100%">
+    </section>
     <script>
     // Automatic Slideshow - change image every 3 seconds
     var myIndex = 0;
