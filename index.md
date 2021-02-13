@@ -1,10 +1,8 @@
-
 <html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    <body>
-    <h1>ab638.github.io</h1>
    <!-- Navigation -->
     <nav class="w3-bar w3-black">
       <a href="#home" class="w3-button w3-bar-item">Home</a>
