@@ -1,7 +1,33 @@
-
+<!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <body>
+    <h1>ab638.github.io</h1>
+   <!-- Navigation -->
+    <nav class="w3-bar w3-black">
+      <a href="#home" class="w3-button w3-bar-item">Home</a>
+      <a href="#projects" class="w3-button w3-bar-item">Projects</a>
+      <a href="#about" class="w3-button w3-bar-item">About</a>
+      <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+    </nav>
+    <script>
+    // Automatic Slideshow - change image every 3 seconds
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 3000);
+    }
+    </script>
+   </body>
 </html>
